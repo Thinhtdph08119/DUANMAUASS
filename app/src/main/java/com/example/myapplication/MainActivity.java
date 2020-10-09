@@ -19,4 +19,9 @@ Intent intent;
         Intent intent = new Intent(MainActivity.this,ListNguoiDungActivity.class);
         startActivity(intent);
     }
+
+    public void viewListBookActivity(View view) {
+        Intent intent=new Intent(MainActivity.this,SachActivity.class);
+        startActivity(intent);
+    }
 }

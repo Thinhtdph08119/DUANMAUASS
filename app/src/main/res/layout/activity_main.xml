@@ -5,9 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/cardview_shadow_start_color"
+
     tools:context=".MainActivity">
 
     <LinearLayout
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -126,12 +129,14 @@
             android:layout_marginLeft="35dp"
             android:layout_marginRight="35dp"
             android:orientation="vertical">
+
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_alignParentRight="true"
                 android:onClick="ViewTopSach"
-                android:src="@drawable/logo" />
+                android:src="@drawable/hdicon" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

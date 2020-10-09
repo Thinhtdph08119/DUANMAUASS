@@ -33,14 +33,7 @@ public class NguoiDungActivity extends AppCompatActivity {
         edFullName = (EditText) findViewById(R.id.edFullName);
 
         Intent intent = getIntent();
-        if (intent != null) {
-            Bundle bundle = intent.getBundleExtra("bun");
-            edUser.setText(bundle.getString("userName"));
-            edPass.setText(bundle.getString("password"));
-            edPhone.setText(bundle.getString("phone"));
-            edFullName.setText(bundle.getString("hoTen"));
 
-        }
     }
 
     public void updateUser(View v) {

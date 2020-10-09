@@ -8,15 +8,13 @@
     tools:context=".ListNguoiDungActivity">
 
 
-
-
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton"
         android:id="@+id/btnThem"
-        android:text="Them"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:onClick="startThemNguoiDung"
-        />
+        android:text="Người dùng" />
 
     <!-- <ListView
           android:id="@+id/lvNguoiDung"

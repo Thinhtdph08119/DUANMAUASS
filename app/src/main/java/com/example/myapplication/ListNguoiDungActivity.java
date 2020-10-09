@@ -38,7 +38,7 @@ public class ListNguoiDungActivity extends AppCompatActivity {
         nguoiDungDAO = new NguoiDungDAO(ListNguoiDungActivity.this);
         dsNguoiDung=nguoiDungDAO.getAllNguoiDung();
 
-
+//tsahdsadtsatdsa
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
